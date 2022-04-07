@@ -31,8 +31,8 @@ textarea {
 }
 
 .row {
-  white-space: pre-wrap;
-  height: 80px;
+  /* white-space: pre-wrap; */
+  /* height: 80px; */
   border-top: 1px solid white;
 }
 
@@ -68,4 +68,8 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.time-row {
+  height: 400px;
 }
