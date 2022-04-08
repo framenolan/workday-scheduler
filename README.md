@@ -1,5 +1,6 @@
 # workday-scheduler
 
+Deployed at: https://framenolan.github.io/workday-scheduler
 
 ## The Task
 
@@ -31,3 +32,11 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+## Notes
+
+I was able to complete this task by using repeating code. I was not able to variablize the save button code, so instead I repeated the code that saved the task notes to local storage for each hour's timeblock. The notes are saved to local storage, they remain between window sessions, and the color coding based on current time does work.
+
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/101062909/162347439-a0caaf42-f110-4b84-b310-69f0c931833b.png)
