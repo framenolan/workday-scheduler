@@ -1,6 +1,6 @@
-# workday-scheduler
+# Workday Scheduler
 
-Deployed at: https://framenolan.github.io/workday-scheduler
+[Deployed Site](https://framenolan.github.io/workday-scheduler)
 
 ## The Task
 
@@ -10,7 +10,7 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 
 ## User Story
 
-```md
+```
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
@@ -18,7 +18,7 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria
 
-```md
+```
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -38,6 +38,14 @@ THEN the saved events persist
 
 I was able to complete this task by using repeating code. I was not able to variablize the save button code, so instead I repeated the code that saved the task notes to local storage for each hour's timeblock. The notes are saved to local storage, they remain between window sessions, and the color coding based on current time does work.
 
-## Screenshot
+## Technologies
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Jquery](https://jquery.com/)
+- [Moment.js](https://momentjs.com/)
+
+## Images
 
 ![image](https://user-images.githubusercontent.com/101062909/162347439-a0caaf42-f110-4b84-b310-69f0c931833b.png)
